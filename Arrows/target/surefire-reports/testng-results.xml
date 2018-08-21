@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8174" started-at="2018-08-21T11:26:21Z" finished-at="2018-08-21T11:26:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8174" started-at="2018-08-21T11:26:21Z" finished-at="2018-08-21T11:26:29Z">
+      <class name="Bingo.Test.NewTest">
+        <test-method status="PASS" signature="createDriver()[pri:0, instance:Bingo.Test.NewTest@17579e0f]" name="createDriver" is-config="true" duration-ms="3222" started-at="2018-08-21T11:26:21Z" finished-at="2018-08-21T11:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="testGoogleSearch()[pri:0, instance:Bingo.Test.NewTest@17579e0f]" name="testGoogleSearch" duration-ms="4118" started-at="2018-08-21T11:26:25Z" finished-at="2018-08-21T11:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleSearch -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Bingo.Test.NewTest@17579e0f]" name="quitDriver" is-config="true" duration-ms="823" started-at="2018-08-21T11:26:29Z" finished-at="2018-08-21T11:26:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

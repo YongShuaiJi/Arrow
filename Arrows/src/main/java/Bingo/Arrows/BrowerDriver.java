@@ -76,19 +76,16 @@ public class BrowerDriver {
 	public JavascriptExecutor getJavascriptExecutor() {
 		return javaScriptExecutor;
 	}
-	
 	//关闭浏览器
 	public void quit() {
 		browserCore.quit();
 		logger.info("Quitted BrowserEmulator");
 	}
-	
 	//关闭当前页面
     public void stop() {
         browserCore.close();
         logger.info("stop webdriver");
     }
-
     public WebElement findElement(By by) {
         WebElement element = browserCore.findElement(By.id(""));
         return element;
@@ -524,11 +521,3 @@ public class BrowerDriver {
 		select.selectByVisibleText(option);
 	}
 }
-
-	
-	
-	
-	
-	
-	
-
