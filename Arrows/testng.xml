@@ -1,9 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite parallel="tests"  name="BinBox多线程控制多节点并发测试" thread-count="11">
+ <listeners>
+  <listener class-name="Bingo.listener.TestListener"></listener>
+ <listener class-name="Bingo.listener.RetryListener"></listener>
+ </listeners>
+  <test name="Test">
+   <parameter name="browserType" value="1" />
     <classes>
       <class name="Bingo.Test.NewTest"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test>
+  <test name="Test2">
+   <parameter name="browserType" value="2" />
+    <classes>
+      <class name="Bingo.Test.NewTest2"/>
+    </classes>
+  </test>
+    <test name="Test3">
+   <parameter name="browserType" value="1" />
+    <classes>
+      <class name="Bingo.Test.NewTest3"/>
+    </classes>
+  </test>
+  <test name="Test4">
+   <parameter name="browserType" value="2" />
+    <classes>
+      <class name="Bingo.Test.NewTest4"/>
+    </classes>
+  </test>
+    <test name="Test5">
+   <parameter name="browserType" value="1" />
+    <classes>
+      <class name="Bingo.Test.NewTest5"/>
+    </classes>
+  </test>
+    <test name="Test6">
+   <parameter name="browserType" value="1" />
+    <classes>
+      <class name="Bingo.Test.NewTest6"/>
+    </classes>
+  </test>
+  <test name="Test7">
+   <parameter name="browserType" value="2" />
+    <classes>
+      <class name="Bingo.Test.NewTest7"/>
+    </classes>
+  </test>
+    <test name="Test8">
+   <parameter name="browserType" value="1" />
+    <classes>
+      <class name="Bingo.Test.NewTest8"/>
+    </classes>
+  </test>
+  <test name="Test9">
+   <parameter name="browserType" value="2" />
+    <classes>
+      <class name="Bingo.Test.NewTest9"/>
+    </classes>
+  </test>
+    <test name="Test10">
+   <parameter name="browserType" value="1" />
+    <classes>
+      <class name="Bingo.Test.NewTest10"/>
+    </classes>
+  </test>
+    <test name="Test11">
+   <parameter name="browserType" value="2" />
+    <classes>
+      <class name="Bingo.Test.NewTest11"/>
+    </classes>
+  </test>
+  <test name="Test12">
+   <parameter name="browserType" value="1" />
+    <classes>
+      <class name="Bingo.Test.NewTest12"/>
+    </classes>
+  </test>
+    <test name="Test13">
+   <parameter name="browserType" value="2" />
+    <classes>
+      <class name="Bingo.Test.NewTest13"/>
+    </classes>
+  </test>
+  <test name="Test14">
+   <parameter name="browserType" value="1" />
+    <classes>
+      <class name="Bingo.Test.NewTest14"/>
+    </classes>
+  </test>
+    <test name="Test15">
+   <parameter name="browserType" value="2" />
+    <classes>
+      <class name="Bingo.Test.NewTest15"/>
+    </classes>
+  </test>
+    <test name="Test16">
+   <parameter name="browserType" value="1" />
+    <classes>
+      <class name="Bingo.Test.NewTest16"/>
+    </classes>
+  </test>
+  <test name="Test17">
+   <parameter name="browserType" value="2" />
+    <classes>
+      <class name="Bingo.Test.NewTest17"/>
+    </classes>
+  </test>
+    <test name="Test18">
+   <parameter name="browserType" value="1" />
+    <classes>
+      <class name="Bingo.Test.NewTest18"/>
+    </classes>
+  </test>
+  <test name="Test19">
+   <parameter name="browserType" value="2" />
+    <classes>
+      <class name="Bingo.Test.NewTest19"/>
+    </classes>
+  </test>
+    <test name="Test20">
+   <parameter name="browserType" value="1" />
+    <classes>
+      <class name="Bingo.Test.NewTest20"/>
+    </classes>
+  </test>
+</suite> 

@@ -4,7 +4,7 @@
     xmlns:util="http://www.springframework.org/schema/util"
     xmlns:jee="http://www.springframework.org/schema/jee"
     xmlns:lang="http://www.springframework.org/schema/lang"
-    xmlns:jms="http://www.springframework.org/schema/jms"
+    xmlns:jms="http://www.springframework.org/schema/jms" 
     xmlns:aop="http://www.springframework.org/schema/aop"
     xmlns:tx="http://www.springframework.org/schema/tx"
     xmlns:context="http://www.springframework.org/schema/context"
@@ -32,8 +32,10 @@
         http://www.springframework.org/schema/tool http://www.springframework.org/schema/tool/spring-tool.xsd
         http://www.springframework.org/schema/websocket http://www.springframework.org/schema/websocket/spring-websocket.xsd">
 <!-- 依赖注入，将类的对象交给 spring-->
-<bean name="" class="" ></bean>
-<bean name="" class="">
-<property name="" value=""></property>
+<bean name="Totality" class="Bingo.Arrows.SpringTotalitySettings" >
+<property name="HubURL" value="http://192.168.0.234:14449/wd/hub"></property>
+<property name="driver" value="com.mysql.cj.jdbc.Drive"></property>
+<property name="userName" value="root"></property>
+<property name="pwd" value="12345678"></property>
 </bean>
 </beans>

@@ -12,13 +12,13 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class AutoDataExcel {
+public class AutoDataExcel { 
 	private String fileName;
 	private String SheetName;
 	private List<String[]> list = new ArrayList<String[]>();
 	public void setFile(String fileName) {
 		this.fileName=fileName;
-	}
+	} 
 	public void setSheetName(String SheetName) {
 		this.SheetName=SheetName;
 	}

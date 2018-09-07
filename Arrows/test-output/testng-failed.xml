@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="20" guice-stage="DEVELOPMENT" name="Failed suite [BinBox多线程控制多节点并发测试]" parallel="tests">
+  <listeners>
+    <listener class-name="Bingo.listener.TestListener"/>
+    <listener class-name="Bingo.listener.RetryListener"/>
+  </listeners>
+  <test thread-count="20" name="Test(failed)" parallel="tests">
+    <parameter name="browserType" value="1"/>
+    <classes>
+      <class name="Bingo.Test.NewTest">
+        <methods>
+          <include name="loginSys"/>
+          <include name="quitDriver"/>
+          <include name="createDriver"/>
+          <include name="testDemo"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [BinBox多线程控制多节点并发测试] -->

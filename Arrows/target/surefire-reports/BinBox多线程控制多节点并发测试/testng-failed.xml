@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="11" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [BinBox多线程控制多节点并发测试]" parallel="tests">
+  <listeners>
+    <listener class-name="Bingo.listener.TestListener"/>
+    <listener class-name="Bingo.listener.RetryListener"/>
+  </listeners>
+  <test thread-count="11" verbose="0" name="Test4(failed)" parallel="tests">
+    <parameter name="browserType" value="2"/>
+    <classes>
+      <class name="Bingo.Test.NewTest4">
+        <methods>
+          <include name="testDemo"/>
+          <include name="quitDriver"/>
+          <include name="loginSys"/>
+          <include name="createDriver"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest4 -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test thread-count="11" verbose="0" name="Test11(failed)" parallel="tests">
+    <parameter name="browserType" value="2"/>
+    <classes>
+      <class name="Bingo.Test.NewTest11">
+        <methods>
+          <include name="testDemo"/>
+          <include name="createDriver"/>
+          <include name="loginSys"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest11 -->
+    </classes>
+  </test> <!-- Test11(failed) -->
+  <test thread-count="11" verbose="0" name="Test5(failed)" parallel="tests">
+    <parameter name="browserType" value="1"/>
+    <classes>
+      <class name="Bingo.Test.NewTest5">
+        <methods>
+          <include name="createDriver"/>
+          <include name="loginSys"/>
+          <include name="testDemo"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest5 -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test thread-count="11" verbose="0" name="Test2(failed)" parallel="tests">
+    <parameter name="browserType" value="2"/>
+    <classes>
+      <class name="Bingo.Test.NewTest2">
+        <methods>
+          <include name="testDemo"/>
+          <include name="loginSys"/>
+          <include name="quitDriver"/>
+          <include name="createDriver"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="11" verbose="0" name="Test8(failed)" parallel="tests">
+    <parameter name="browserType" value="1"/>
+    <classes>
+      <class name="Bingo.Test.NewTest8">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="loginSys"/>
+          <include name="testDemo"/>
+          <include name="createDriver"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest8 -->
+    </classes>
+  </test> <!-- Test8(failed) -->
+  <test thread-count="11" verbose="0" name="Test10(failed)" parallel="tests">
+    <parameter name="browserType" value="1"/>
+    <classes>
+      <class name="Bingo.Test.NewTest10">
+        <methods>
+          <include name="testDemo"/>
+          <include name="loginSys"/>
+          <include name="createDriver"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest10 -->
+    </classes>
+  </test> <!-- Test10(failed) -->
+  <test thread-count="11" verbose="0" name="Test(failed)" parallel="tests">
+    <parameter name="browserType" value="1"/>
+    <classes>
+      <class name="Bingo.Test.NewTest">
+        <methods>
+          <include name="loginSys"/>
+          <include name="quitDriver"/>
+          <include name="createDriver"/>
+          <include name="testDemo"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="11" verbose="0" name="Test6(failed)" parallel="tests">
+    <parameter name="browserType" value="1"/>
+    <classes>
+      <class name="Bingo.Test.NewTest6">
+        <methods>
+          <include name="loginSys"/>
+          <include name="quitDriver"/>
+          <include name="createDriver"/>
+          <include name="testDemo"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest6 -->
+    </classes>
+  </test> <!-- Test6(failed) -->
+  <test thread-count="11" verbose="0" name="Test9(failed)" parallel="tests">
+    <parameter name="browserType" value="2"/>
+    <classes>
+      <class name="Bingo.Test.NewTest9">
+        <methods>
+          <include name="createDriver"/>
+          <include name="loginSys"/>
+          <include name="quitDriver"/>
+          <include name="testDemo"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest9 -->
+    </classes>
+  </test> <!-- Test9(failed) -->
+  <test thread-count="11" verbose="0" name="Test3(failed)" parallel="tests">
+    <parameter name="browserType" value="1"/>
+    <classes>
+      <class name="Bingo.Test.NewTest3">
+        <methods>
+          <include name="testDemo"/>
+          <include name="createDriver"/>
+          <include name="loginSys"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest3 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="11" verbose="0" name="Test7(failed)" parallel="tests">
+    <parameter name="browserType" value="2"/>
+    <classes>
+      <class name="Bingo.Test.NewTest7">
+        <methods>
+          <include name="testDemo"/>
+          <include name="createDriver"/>
+          <include name="loginSys"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest7 -->
+    </classes>
+  </test> <!-- Test7(failed) -->
+  <test thread-count="11" verbose="0" name="Test20(failed)" parallel="tests">
+    <parameter name="browserType" value="1"/>
+    <classes>
+      <class name="Bingo.Test.NewTest20">
+        <methods>
+          <include name="testDemo"/>
+          <include name="createDriver"/>
+          <include name="loginSys"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest20 -->
+    </classes>
+  </test> <!-- Test20(failed) -->
+  <test thread-count="11" verbose="0" name="Test19(failed)" parallel="tests">
+    <parameter name="browserType" value="2"/>
+    <classes>
+      <class name="Bingo.Test.NewTest19">
+        <methods>
+          <include name="createDriver"/>
+          <include name="loginSys"/>
+          <include name="quitDriver"/>
+          <include name="testDemo"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest19 -->
+    </classes>
+  </test> <!-- Test19(failed) -->
+  <test thread-count="11" verbose="0" name="Test18(failed)" parallel="tests">
+    <parameter name="browserType" value="1"/>
+    <classes>
+      <class name="Bingo.Test.NewTest18">
+        <methods>
+          <include name="loginSys"/>
+          <include name="createDriver"/>
+          <include name="quitDriver"/>
+          <include name="testDemo"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest18 -->
+    </classes>
+  </test> <!-- Test18(failed) -->
+  <test thread-count="11" verbose="0" name="Test17(failed)" parallel="tests">
+    <parameter name="browserType" value="2"/>
+    <classes>
+      <class name="Bingo.Test.NewTest17">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="testDemo"/>
+          <include name="createDriver"/>
+          <include name="loginSys"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest17 -->
+    </classes>
+  </test> <!-- Test17(failed) -->
+  <test thread-count="11" verbose="0" name="Test16(failed)" parallel="tests">
+    <parameter name="browserType" value="1"/>
+    <classes>
+      <class name="Bingo.Test.NewTest16">
+        <methods>
+          <include name="loginSys"/>
+          <include name="quitDriver"/>
+          <include name="testDemo"/>
+          <include name="createDriver"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest16 -->
+    </classes>
+  </test> <!-- Test16(failed) -->
+  <test thread-count="11" verbose="0" name="Test15(failed)" parallel="tests">
+    <parameter name="browserType" value="2"/>
+    <classes>
+      <class name="Bingo.Test.NewTest15">
+        <methods>
+          <include name="createDriver"/>
+          <include name="loginSys"/>
+          <include name="quitDriver"/>
+          <include name="testDemo"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest15 -->
+    </classes>
+  </test> <!-- Test15(failed) -->
+  <test thread-count="11" verbose="0" name="Test14(failed)" parallel="tests">
+    <parameter name="browserType" value="1"/>
+    <classes>
+      <class name="Bingo.Test.NewTest14">
+        <methods>
+          <include name="loginSys"/>
+          <include name="createDriver"/>
+          <include name="quitDriver"/>
+          <include name="testDemo"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest14 -->
+    </classes>
+  </test> <!-- Test14(failed) -->
+  <test thread-count="11" verbose="0" name="Test13(failed)" parallel="tests">
+    <parameter name="browserType" value="2"/>
+    <classes>
+      <class name="Bingo.Test.NewTest13">
+        <methods>
+          <include name="testDemo"/>
+          <include name="quitDriver"/>
+          <include name="createDriver"/>
+          <include name="loginSys"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest13 -->
+    </classes>
+  </test> <!-- Test13(failed) -->
+  <test thread-count="11" verbose="0" name="Test12(failed)" parallel="tests">
+    <parameter name="browserType" value="1"/>
+    <classes>
+      <class name="Bingo.Test.NewTest12">
+        <methods>
+          <include name="testDemo"/>
+          <include name="loginSys"/>
+          <include name="quitDriver"/>
+          <include name="createDriver"/>
+        </methods>
+      </class> <!-- Bingo.Test.NewTest12 -->
+    </classes>
+  </test> <!-- Test12(failed) -->
+</suite> <!-- Failed suite [BinBox多线程控制多节点并发测试] -->

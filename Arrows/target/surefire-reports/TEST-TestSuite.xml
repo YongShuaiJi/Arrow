@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="8.585" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="78.034" tests="40" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Develop\Java\Eclipse\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf776002043332773363.tmp"/>
+    <property name="classworlds.conf" value="C:\Develop\Java\Eclipse\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7890020761195354234.tmp"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Program Files (x86)\HP\NV\lib\shunra\vcat;C:\app\Administrator\virtual\product\12.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Develop\apache-maven-3.5.0\bin;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Program Files (x86)\HP\NV\lib\thirdparty\safenet\LDK\7.0;C:\Program Files (x86)\HP\NV\lib\shunra\snv;C:\Program Files\Git\cmd;C:\Develop\apache-jmeter-4.0\bin;C:\Develop\apache-jmeter-4.0\lib;C:\Develop\apache-jmeter-4.0\lib\ext;C:\Develop\apache-jmeter-4.0\lib;C:\Develop\Driver;C:\Users\Administrator\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\Develop\Driver;C:\Program Files (x86)\HP\NV\lib\shunra\vcat;C:\app\Administrator\virtual\product\12.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Develop\apache-maven-3.5.0\bin;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Program Files (x86)\HP\NV\lib\thirdparty\safenet\LDK\7.0;C:\Program Files (x86)\HP\NV\lib\shunra\snv;C:\Program Files\Git\cmd;C:\Develop\apache-jmeter-4.0\bin;C:\Develop\apache-jmeter-4.0\lib;C:\Develop\apache-jmeter-4.0\lib\ext;C:\Develop\apache-jmeter-4.0\lib;C:\Users\Administrator\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Develop\allure-2.7.0\bin;C:\Users\Administrator\.cargo\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Roaming\npm;C:\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,5 +61,44 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testGoogleSearch" classname="Bingo.Test.NewTest" time="4.118"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest6" time="1.086"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest6" time="0.294"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest10" time="1.116"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest10" time="0.648"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest9" time="0.876"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest9" time="2.801"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest5" time="1.299"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest5" time="0.226"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest" time="1.743"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest11" time="1.193"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest" time="0.254"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest11" time="1.929"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest7" time="0.804"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest7" time="1.64"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest4" time="0.782"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest4" time="2.033"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest8" time="1.127"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest8" time="0.761"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest2" time="0.989"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest2" time="2.166"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest3" time="1.194"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest3" time="0.488"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest20" time="1.321"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest19" time="0.944"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest20" time="0.13"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest19" time="1.814"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest18" time="1.222"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest17" time="0.905"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest18" time="0.333"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest17" time="1.687"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest16" time="1.164"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest16" time="0.972"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest15" time="0.997"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest15" time="1.693"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest14" time="1.304"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest13" time="0.918"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest14" time="0.095"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest13" time="1.876"/>
+  <testcase name="loginSys" classname="Bingo.Test.NewTest12" time="0.927"/>
+  <testcase name="testDemo" classname="Bingo.Test.NewTest12" time="1.918"/>
 </testsuite>

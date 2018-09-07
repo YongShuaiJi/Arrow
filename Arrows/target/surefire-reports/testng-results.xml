@@ -1,25 +1,689 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="40" passed="40">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8174" started-at="2018-08-21T11:26:21Z" finished-at="2018-08-21T11:26:29Z">
+  <suite name="BinBox多线程控制多节点并发测试" duration-ms="76585" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:19:30Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="8174" started-at="2018-08-21T11:26:21Z" finished-at="2018-08-21T11:26:29Z">
-      <class name="Bingo.Test.NewTest">
-        <test-method status="PASS" signature="createDriver()[pri:0, instance:Bingo.Test.NewTest@17579e0f]" name="createDriver" is-config="true" duration-ms="3222" started-at="2018-08-21T11:26:21Z" finished-at="2018-08-21T11:26:25Z">
+    <test name="Test6" duration-ms="8594" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:22Z">
+      <class name="Bingo.Test.NewTest6">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest6@32f0c7f8]" name="createDriver" is-config="true" duration-ms="5486" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDriver -->
-        <test-method status="PASS" signature="testGoogleSearch()[pri:0, instance:Bingo.Test.NewTest@17579e0f]" name="testGoogleSearch" duration-ms="4118" started-at="2018-08-21T11:26:25Z" finished-at="2018-08-21T11:26:29Z">
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest6@32f0c7f8]" name="loginSys" duration-ms="1085" started-at="2018-09-07T08:18:19Z" finished-at="2018-09-07T08:18:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGoogleSearch -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:Bingo.Test.NewTest@17579e0f]" name="quitDriver" is-config="true" duration-ms="823" started-at="2018-08-21T11:26:29Z" finished-at="2018-08-21T11:26:29Z">
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest6@32f0c7f8]" name="testDemo" duration-ms="1837" started-at="2018-09-07T08:18:20Z" finished-at="2018-09-07T08:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest6@32f0c7f8]" name="quitDriver" is-config="true" duration-ms="46" started-at="2018-09-07T08:18:22Z" finished-at="2018-09-07T08:18:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest6 -->
+    </test> <!-- Test6 -->
+    <test name="Test10" duration-ms="11799" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:25Z">
+      <class name="Bingo.Test.NewTest10">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest10@19b047fe]" name="createDriver" is-config="true" duration-ms="8228" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest10@19b047fe]" name="loginSys" duration-ms="1116" started-at="2018-09-07T08:18:22Z" finished-at="2018-09-07T08:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest10@19b047fe]" name="testDemo" duration-ms="2359" started-at="2018-09-07T08:18:23Z" finished-at="2018-09-07T08:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest10@19b047fe]" name="quitDriver" is-config="true" duration-ms="70" started-at="2018-09-07T08:18:25Z" finished-at="2018-09-07T08:18:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest10 -->
+    </test> <!-- Test10 -->
+    <test name="Test9" duration-ms="15685" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:29Z">
+      <class name="Bingo.Test.NewTest9">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest9@1046498a]" name="createDriver" is-config="true" duration-ms="11056" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest9@1046498a]" name="loginSys" duration-ms="875" started-at="2018-09-07T08:18:24Z" finished-at="2018-09-07T08:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest9@1046498a]" name="testDemo" duration-ms="2801" started-at="2018-09-07T08:18:25Z" finished-at="2018-09-07T08:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest9@1046498a]" name="quitDriver" is-config="true" duration-ms="924" started-at="2018-09-07T08:18:28Z" finished-at="2018-09-07T08:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest9 -->
+    </test> <!-- Test9 -->
+    <test name="Test5" duration-ms="19001" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:32Z">
+      <class name="Bingo.Test.NewTest5">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest5@6bf13698]" name="createDriver" is-config="true" duration-ms="15339" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest5@6bf13698]" name="loginSys" duration-ms="1299" started-at="2018-09-07T08:18:29Z" finished-at="2018-09-07T08:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest5@6bf13698]" name="testDemo" duration-ms="2277" started-at="2018-09-07T08:18:30Z" finished-at="2018-09-07T08:18:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest5@6bf13698]" name="quitDriver" is-config="true" duration-ms="58" started-at="2018-09-07T08:18:32Z" finished-at="2018-09-07T08:18:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest5 -->
+    </test> <!-- Test5 -->
+    <test name="Test" duration-ms="23117" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:36Z">
+      <class name="Bingo.Test.NewTest">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest@72ee5d84]" name="createDriver" is-config="true" duration-ms="18692" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest@72ee5d84]" name="loginSys" duration-ms="1742" started-at="2018-09-07T08:18:32Z" finished-at="2018-09-07T08:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest@72ee5d84]" name="testDemo" duration-ms="2548" started-at="2018-09-07T08:18:34Z" finished-at="2018-09-07T08:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest@72ee5d84]" name="quitDriver" is-config="true" duration-ms="108" started-at="2018-09-07T08:18:36Z" finished-at="2018-09-07T08:18:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
       </class> <!-- Bingo.Test.NewTest -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    <test name="Test11" duration-ms="25975" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:39Z">
+      <class name="Bingo.Test.NewTest11">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest11@34819867]" name="createDriver" is-config="true" duration-ms="21535" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest11@34819867]" name="loginSys" duration-ms="1193" started-at="2018-09-07T08:18:35Z" finished-at="2018-09-07T08:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest11@34819867]" name="testDemo" duration-ms="1930" started-at="2018-09-07T08:18:36Z" finished-at="2018-09-07T08:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest11@34819867]" name="quitDriver" is-config="true" duration-ms="1291" started-at="2018-09-07T08:18:38Z" finished-at="2018-09-07T08:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest11 -->
+    </test> <!-- Test11 -->
+    <test name="Test7" duration-ms="29198" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:43Z">
+      <class name="Bingo.Test.NewTest7">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest7@7275c74b]" name="createDriver" is-config="true" duration-ms="25538" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest7@7275c74b]" name="loginSys" duration-ms="803" started-at="2018-09-07T08:18:39Z" finished-at="2018-09-07T08:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest7@7275c74b]" name="testDemo" duration-ms="1640" started-at="2018-09-07T08:18:40Z" finished-at="2018-09-07T08:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest7@7275c74b]" name="quitDriver" is-config="true" duration-ms="1191" started-at="2018-09-07T08:18:41Z" finished-at="2018-09-07T08:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest7 -->
+    </test> <!-- Test7 -->
+    <test name="Test4" duration-ms="33156" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:46Z">
+      <class name="Bingo.Test.NewTest4">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest4@280d9edc]" name="createDriver" is-config="true" duration-ms="29435" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest4@280d9edc]" name="loginSys" duration-ms="782" started-at="2018-09-07T08:18:43Z" finished-at="2018-09-07T08:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest4@280d9edc]" name="testDemo" duration-ms="2032" started-at="2018-09-07T08:18:44Z" finished-at="2018-09-07T08:18:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest4@280d9edc]" name="quitDriver" is-config="true" duration-ms="881" started-at="2018-09-07T08:18:46Z" finished-at="2018-09-07T08:18:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest4 -->
+    </test> <!-- Test4 -->
+    <test name="Test8" duration-ms="37347" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:51Z">
+      <class name="Bingo.Test.NewTest8">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest8@18ac53e8]" name="createDriver" is-config="true" duration-ms="33670" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest8@18ac53e8]" name="loginSys" duration-ms="1127" started-at="2018-09-07T08:18:47Z" finished-at="2018-09-07T08:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest8@18ac53e8]" name="testDemo" duration-ms="2457" started-at="2018-09-07T08:18:48Z" finished-at="2018-09-07T08:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest8@18ac53e8]" name="quitDriver" is-config="true" duration-ms="67" started-at="2018-09-07T08:18:51Z" finished-at="2018-09-07T08:18:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest8 -->
+    </test> <!-- Test8 -->
+    <test name="Test2" duration-ms="40582" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:54Z">
+      <class name="Bingo.Test.NewTest2">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest2@1de9d54]" name="createDriver" is-config="true" duration-ms="36494" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest2@1de9d54]" name="loginSys" duration-ms="989" started-at="2018-09-07T08:18:50Z" finished-at="2018-09-07T08:18:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest2@1de9d54]" name="testDemo" duration-ms="2166" started-at="2018-09-07T08:18:51Z" finished-at="2018-09-07T08:18:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest2@1de9d54]" name="quitDriver" is-config="true" duration-ms="906" started-at="2018-09-07T08:18:53Z" finished-at="2018-09-07T08:18:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest2 -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="44704" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:58Z">
+      <class name="Bingo.Test.NewTest3">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest3@30c0d731]" name="createDriver" is-config="true" duration-ms="40938" started-at="2018-09-07T08:18:13Z" finished-at="2018-09-07T08:18:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest3@30c0d731]" name="loginSys" duration-ms="1194" started-at="2018-09-07T08:18:54Z" finished-at="2018-09-07T08:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest3@30c0d731]" name="testDemo" duration-ms="2485" started-at="2018-09-07T08:18:55Z" finished-at="2018-09-07T08:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest3@30c0d731]" name="quitDriver" is-config="true" duration-ms="59" started-at="2018-09-07T08:18:58Z" finished-at="2018-09-07T08:18:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest3 -->
+    </test> <!-- Test3 -->
+    <test name="Test20" duration-ms="10794" started-at="2018-09-07T08:18:51Z" finished-at="2018-09-07T08:19:01Z">
+      <class name="Bingo.Test.NewTest20">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest20@5533dc72]" name="createDriver" is-config="true" duration-ms="6793" started-at="2018-09-07T08:18:51Z" finished-at="2018-09-07T08:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest20@5533dc72]" name="loginSys" duration-ms="1321" started-at="2018-09-07T08:18:57Z" finished-at="2018-09-07T08:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest20@5533dc72]" name="testDemo" duration-ms="2611" started-at="2018-09-07T08:18:59Z" finished-at="2018-09-07T08:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest20@5533dc72]" name="quitDriver" is-config="true" duration-ms="62" started-at="2018-09-07T08:19:01Z" finished-at="2018-09-07T08:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest20 -->
+    </test> <!-- Test20 -->
+    <test name="Test19" duration-ms="17510" started-at="2018-09-07T08:18:46Z" finished-at="2018-09-07T08:19:04Z">
+      <class name="Bingo.Test.NewTest19">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest19@5ff90645]" name="createDriver" is-config="true" duration-ms="13846" started-at="2018-09-07T08:18:46Z" finished-at="2018-09-07T08:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest19@5ff90645]" name="loginSys" duration-ms="944" started-at="2018-09-07T08:19:00Z" finished-at="2018-09-07T08:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest19@5ff90645]" name="testDemo" duration-ms="1813" started-at="2018-09-07T08:19:01Z" finished-at="2018-09-07T08:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest19@5ff90645]" name="quitDriver" is-config="true" duration-ms="901" started-at="2018-09-07T08:19:03Z" finished-at="2018-09-07T08:19:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest19 -->
+    </test> <!-- Test19 -->
+    <test name="Test18" duration-ms="26423" started-at="2018-09-07T08:18:43Z" finished-at="2018-09-07T08:19:09Z">
+      <class name="Bingo.Test.NewTest18">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest18@e48bf9a]" name="createDriver" is-config="true" duration-ms="22303" started-at="2018-09-07T08:18:43Z" finished-at="2018-09-07T08:19:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest18@e48bf9a]" name="loginSys" duration-ms="1223" started-at="2018-09-07T08:19:05Z" finished-at="2018-09-07T08:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest18@e48bf9a]" name="testDemo" duration-ms="2837" started-at="2018-09-07T08:19:06Z" finished-at="2018-09-07T08:19:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest18@e48bf9a]" name="quitDriver" is-config="true" duration-ms="55" started-at="2018-09-07T08:19:09Z" finished-at="2018-09-07T08:19:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest18 -->
+    </test> <!-- Test18 -->
+    <test name="Test17" duration-ms="32119" started-at="2018-09-07T08:18:39Z" finished-at="2018-09-07T08:19:11Z">
+      <class name="Bingo.Test.NewTest17">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest17@25da615a]" name="createDriver" is-config="true" duration-ms="28345" started-at="2018-09-07T08:18:39Z" finished-at="2018-09-07T08:19:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest17@25da615a]" name="loginSys" duration-ms="905" started-at="2018-09-07T08:19:08Z" finished-at="2018-09-07T08:19:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest17@25da615a]" name="testDemo" duration-ms="1686" started-at="2018-09-07T08:19:09Z" finished-at="2018-09-07T08:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest17@25da615a]" name="quitDriver" is-config="true" duration-ms="1176" started-at="2018-09-07T08:19:10Z" finished-at="2018-09-07T08:19:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest17 -->
+    </test> <!-- Test17 -->
+    <test name="Test16" duration-ms="39734" started-at="2018-09-07T08:18:36Z" finished-at="2018-09-07T08:19:16Z">
+      <class name="Bingo.Test.NewTest16">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest16@3402b4c9]" name="createDriver" is-config="true" duration-ms="35898" started-at="2018-09-07T08:18:36Z" finished-at="2018-09-07T08:19:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest16@3402b4c9]" name="loginSys" duration-ms="1164" started-at="2018-09-07T08:19:12Z" finished-at="2018-09-07T08:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest16@3402b4c9]" name="testDemo" duration-ms="2590" started-at="2018-09-07T08:19:14Z" finished-at="2018-09-07T08:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest16@3402b4c9]" name="quitDriver" is-config="true" duration-ms="76" started-at="2018-09-07T08:19:16Z" finished-at="2018-09-07T08:19:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest16 -->
+    </test> <!-- Test16 -->
+    <test name="Test15" duration-ms="46485" started-at="2018-09-07T08:18:32Z" finished-at="2018-09-07T08:19:19Z">
+      <class name="Bingo.Test.NewTest15">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest15@736048ed]" name="createDriver" is-config="true" duration-ms="42797" started-at="2018-09-07T08:18:32Z" finished-at="2018-09-07T08:19:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest15@736048ed]" name="loginSys" duration-ms="997" started-at="2018-09-07T08:19:15Z" finished-at="2018-09-07T08:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest15@736048ed]" name="testDemo" duration-ms="1693" started-at="2018-09-07T08:19:16Z" finished-at="2018-09-07T08:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest15@736048ed]" name="quitDriver" is-config="true" duration-ms="991" started-at="2018-09-07T08:19:18Z" finished-at="2018-09-07T08:19:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest15 -->
+    </test> <!-- Test15 -->
+    <test name="Test14" duration-ms="54525" started-at="2018-09-07T08:18:29Z" finished-at="2018-09-07T08:19:24Z">
+      <class name="Bingo.Test.NewTest14">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest14@8b91134]" name="createDriver" is-config="true" duration-ms="50643" started-at="2018-09-07T08:18:29Z" finished-at="2018-09-07T08:19:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest14@8b91134]" name="loginSys" duration-ms="1304" started-at="2018-09-07T08:19:20Z" finished-at="2018-09-07T08:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest14@8b91134]" name="testDemo" duration-ms="2520" started-at="2018-09-07T08:19:21Z" finished-at="2018-09-07T08:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest14@8b91134]" name="quitDriver" is-config="true" duration-ms="53" started-at="2018-09-07T08:19:23Z" finished-at="2018-09-07T08:19:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest14 -->
+    </test> <!-- Test14 -->
+    <test name="Test13" duration-ms="61119" started-at="2018-09-07T08:18:25Z" finished-at="2018-09-07T08:19:26Z">
+      <class name="Bingo.Test.NewTest13">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest13@30a7c98f]" name="createDriver" is-config="true" duration-ms="57338" started-at="2018-09-07T08:18:25Z" finished-at="2018-09-07T08:19:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest13@30a7c98f]" name="loginSys" duration-ms="918" started-at="2018-09-07T08:19:22Z" finished-at="2018-09-07T08:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest13@30a7c98f]" name="testDemo" duration-ms="1876" started-at="2018-09-07T08:19:23Z" finished-at="2018-09-07T08:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest13@30a7c98f]" name="quitDriver" is-config="true" duration-ms="982" started-at="2018-09-07T08:19:25Z" finished-at="2018-09-07T08:19:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest13 -->
+    </test> <!-- Test13 -->
+    <test name="Test12" duration-ms="67960" started-at="2018-09-07T08:18:22Z" finished-at="2018-09-07T08:19:30Z">
+      <class name="Bingo.Test.NewTest12">
+        <test-method status="PASS" signature="createDriver(int)[pri:0, instance:Bingo.Test.NewTest12@6d2dc9d2]" name="createDriver" is-config="true" duration-ms="65067" started-at="2018-09-07T08:18:22Z" finished-at="2018-09-07T08:19:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="loginSys()[pri:1, instance:Bingo.Test.NewTest12@6d2dc9d2]" name="loginSys" duration-ms="928" started-at="2018-09-07T08:19:27Z" finished-at="2018-09-07T08:19:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSys -->
+        <test-method status="PASS" signature="testDemo()[pri:2, instance:Bingo.Test.NewTest12@6d2dc9d2]" name="testDemo" duration-ms="1919" started-at="2018-09-07T08:19:28Z" finished-at="2018-09-07T08:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDemo -->
+        <test-method status="PASS" signature="quitDriver(int)[pri:0, instance:Bingo.Test.NewTest12@6d2dc9d2]" name="quitDriver" is-config="true" duration-ms="44" started-at="2018-09-07T08:19:30Z" finished-at="2018-09-07T08:19:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- Bingo.Test.NewTest12 -->
+    </test> <!-- Test12 -->
+  </suite> <!-- BinBox多线程控制多节点并发测试 -->
 </testng-results>
